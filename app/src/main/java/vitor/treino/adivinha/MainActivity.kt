@@ -25,11 +25,15 @@ class MainActivity : AppCompatActivity() {
         tentativas = 0
         jogo++
 
-        atualizaJogoTentiva()
+        atualizaTentiva()
+        atualizaJogo()
     }
 
-    private fun atualizaJogoTentiva() {
+    private fun atualizaTentiva() {
         findViewById<TextView>(R.id.textViewTentativa).text = getString(R.string.tentativa) + tentativas
+    }
+
+    private fun atualizaJogo() {
         findViewById<TextView>(R.id.textViewJogo).text = getString(R.string.jogo) + jogo
     }
 
@@ -55,5 +59,8 @@ class MainActivity : AppCompatActivity() {
             } else {
                 getString(R.string.numero_menor)
             }
+
+        tentativas++
+        atualizaTentiva()
     }
 }
