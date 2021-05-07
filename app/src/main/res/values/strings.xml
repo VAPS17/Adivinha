@@ -3,4 +3,11 @@
     <string name="tente_adivinhar_o_n_mero_que_estou_a_pensar_1_a_10">Tente adivinhar o número que estou a pensar (1 a 10)</string>
     <string name="adivinhar">Adivinhar</string>
     <string name="n_mero">Número</string>
+    <string name="tentativa">\"Tentativa: \"</string>
+    <string name="jogo">\"Jogo: \"</string>
+    <string name="numero_invalido">Introduza um número entre 1 a 10.</string>
+    <string name="numero_entre1a10">O número deve estar entre 1 a 10.</string>
+    <string name="acertou">Parabéns, Acertou.</string>
+    <string name="numero_maior">O número que estou a pensar é maior.</string>
+    <string name="numero_menor">O número que estou a pensar é menor</string>
 </resources>
